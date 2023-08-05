@@ -1,0 +1,20 @@
+
+li a::before{
+
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    background: orangered;
+    height: 5px;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+   
+
+}
+
+li a:hover::before{
+    transform: scaleX(1)
+}

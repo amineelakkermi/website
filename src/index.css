@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#image{
+  transition: 0.4s ease;
+}
+
+#image:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: orangered;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ee4444;
+}
+
+
+
+body {
+  --black: #111111;
+  --white: #fdfdfd;
+  --green: #22cc88;
+  --blue: #0055ff;
+  --purple: #8855ff;
+  --red: #ff0055;
+  --orange: #ee4444;
+  --yellow: #ffcc00;
+  --mustard: #ffaa00;
+  --background: var(--white);
+  --accent: var(--black);
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--accent);
+ 
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--orange);
+  transform-origin: 0%;
+  z-index: 1;
+}
+
+
+
+.angry__tools{
+ 
+  
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(0, 209, 255, 1) 100%);
+ 
+   
+
+}
+
+
+.angry__tools_reverse{
+  background: linear-gradient(180deg, rgba(0, 209, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

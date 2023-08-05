@@ -1,0 +1,29 @@
+
+
+
+#product{
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 4px 0px rgb(136, 118, 105);
+    cursor: pointer;
+    
+    
+    
+}
+
+
+#product:hover{
+    transform: translateY(-20px);
+}
+
+
+#bg{
+    transition: 0.3s ease;
+  
+}
+
+#bg:hover{
+    transform: rotate(30deg);
+}
+
+
+

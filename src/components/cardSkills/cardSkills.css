@@ -1,0 +1,9 @@
+#card1{
+    transition: 0.5s ease;
+
+}
+
+#card1:hover{
+    transform: translateY(-15px);
+    
+}

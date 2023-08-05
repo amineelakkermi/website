@@ -1,0 +1,11 @@
+input , textarea{
+    border: 2px solid rgb(10, 91, 138);
+}
+
+input[type="submit"]{
+    border: none;
+}
+
+textarea{
+    resize: none;
+}
